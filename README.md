@@ -45,7 +45,7 @@ I wyznaczamy pole koła (liczba punktów w kole / liczba wszystkich wygenerowany
 Klasa MonteCarlo rozszerza klasę Thread.
 Konstruktor przyjmuje parametry początkowego punktu przedziału pracy tego wątku, parametry końcowego punktu oraz liczbę generowanych punktów.
 
-  public MonteCarlo(double xStart, double yStart, double xStop, double yStop, int n) {
+    public MonteCarlo(double xStart, double yStart, double xStop, double yStop, int n) {
         this.xStart = xStart;
         this.yStart = yStart;
         this.xStop = xStop;
