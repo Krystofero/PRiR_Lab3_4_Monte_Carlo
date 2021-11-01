@@ -55,7 +55,7 @@ Konstruktor przyjmuje parametry początkowego punktu przedziału pracy tego wąt
 
 W metodzie run() generujemy punkty o losowych współrzędnych x oraz y i sprawdzamy czy znajdują się w naszym okręgu:
 
-@Override
+ @Override
     public void run() {
         int inCircle = 0;
 
